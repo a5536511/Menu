@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jay.user.wenspj.Main2Activity">
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/holo_red_dark"
+        android:ems="10"
+        android:hint="  請輸入桌號"
+        android:textSize="24sp"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/button"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="25dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="菜單"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="165dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="31dp"
+        android:background="@mipmap/d1"
+        android:maxLines="20"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:text="第一桌"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et1" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="165dp"
+        android:layout_height="180dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="31dp"
+        android:background="@mipmap/d1"
+        android:maxLines="20"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:text="第二桌"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="165dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@mipmap/d1"
+        android:maxLines="20"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:text="第三桌"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1"
+        app:layout_constraintVertical_bias="0.321" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="165dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@mipmap/d1"
+        android:maxLines="20"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:text="第四桌"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv2"
+        app:layout_constraintVertical_bias="0.321" />
+</android.support.constraint.ConstraintLayout>
